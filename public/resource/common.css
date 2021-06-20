@@ -1,0 +1,87 @@
+@charset "utf-8";
+
+/* 폰트 적용 */
+/* @font-face {
+  font-family: 'LotteMartDream';
+  font-style: normal;
+  font-weight: 400;
+  src: url('https://cdn.jsdelivr.net/korean-webfonts/1/corps/lottemart/LotteMartDream/LotteMartDreamMedium.woff2') format('woff2'), url('//cdn.jsdelivr.net/korean-webfonts/1/corps/lottemart/LotteMartDream/LotteMartDreamMedium.woff') format('woff');
+}
+@font-face {
+  font-family: 'LotteMartDream';
+  font-style: normal;
+  font-weight: 700;
+  src: url('https://cdn.jsdelivr.net/korean-webfonts/1/corps/lottemart/LotteMartDream/LotteMartDreamBold.woff2') format('woff2'), url('//cdn.jsdelivr.net/korean-webfonts/1/corps/lottemart/LotteMartDream/LotteMartDreamBold.woff') format('woff');
+}
+@font-face {
+  font-family: 'LotteMartDream';
+  font-style: normal;
+  font-weight: 300;
+  src: url('https://cdn.jsdelivr.net/korean-webfonts/1/corps/lottemart/LotteMartDream/LotteMartDreamLight.woff2') format('woff2'), url('//cdn.jsdelivr.net/korean-webfonts/1/corps/lottemart/LotteMartDream/LotteMartDreamLight.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Cafe24Ssurround';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2105_2@1.0/Cafe24Ssurround.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+} */
+
+@font-face {
+  font-family: 'CookieRun-Regular';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/CookieRun-Regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+html > body, html > body .tui-editor-contents {
+ font-family: 'LotteMartDream', sans-serif;
+}
+
+.con-pad {
+  padding:0 1rem;
+}
+
+.top-bar {
+  position: fixed;
+}
+
+.font-size20{
+  font-size: 20px;
+}
+
+.font-size25{
+  font-size: 25px;
+}
+
+
+.pad-20{
+  padding: 500px;
+}
+
+
+.bg-skyblue{
+  background-color: skyblue;
+}
+
+
+.mar-lr30{
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
+.font-colorblack{
+  color:black;
+}
+
+footer{
+  margin-top: 30px;
+}
+
+.text-black{
+  color: black;
+}
+
+.mar-30{
+  margin:30px;
+}
